@@ -1,6 +1,6 @@
 // Service worker : met en cache uniquement la coquille de l'application (icône, écran de démarrage).
 // L'application Apps Script elle-même est toujours chargée depuis le réseau.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'check-securite-' + VERSION;
 const FICHIERS = ['./', './index.html', './config.js', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 
